@@ -1,0 +1,14 @@
+.mainButton{
+    background-color: #0AC282;
+    border-radius: 2px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    cursor: pointer;
+}
+
+.mainButton:hover{
+    background-color: #04ffa7;
+}

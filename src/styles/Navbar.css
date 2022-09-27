@@ -1,0 +1,39 @@
+.navbarContainer{
+    display: flex;
+    align-items: center;
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(255 255 255 / 80%) -6px -2px 16px 0px;
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 2;
+}
+
+.Logout{
+    display: flex;
+    margin-left: auto;
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+.maxmin{
+    margin-left: 55px;
+}
+
+.photo{
+    width: 55px;
+}
+
+.toggle{
+    margin-left: 140px;
+}
+
+.fullscreen{
+    /* display: flex; */
+    align-items: center;
+    width: 100%
+}
+
+.title{
+    margin-left: 30%;
+    font-size: 30px;
+}

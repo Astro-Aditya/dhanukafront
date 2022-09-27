@@ -1,0 +1,39 @@
+.sidebarMain{
+    background: #008F42;
+    height: 100%;
+    position: fixed;
+    /* margin-top: 64px; */
+    /* width: 300px; */
+    float: left;
+    z-index: 1;
+}
+
+.itemContainer{
+    display: flex;
+    color:white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.link_text{
+    margin-left: 30px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.open{
+    width: 300px;
+    opacity:1;
+    transition: width 0.3s, opacity 0.3s;
+}
+
+.close{
+    opacity: 0;
+    width: 50px;
+    transition: width 0.3s, opacity 0.3s;
+
+}
+
+

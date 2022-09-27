@@ -1,0 +1,21 @@
+.tableContainerExcel{
+    display: none;
+}
+
+.tableRow{
+    border: 2px solid black;
+}
+
+.tableD{
+    border: 2px solid;
+    padding: 15px;
+}
+
+.tableVisibleContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px !important;}
+
+.excelButton{
+    margin-top: 20px !important;
+}

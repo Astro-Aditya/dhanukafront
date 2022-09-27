@@ -1,0 +1,93 @@
+.dashboardContainer{
+    /* height: 100% */
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mainBody{
+    margin-top: 64px !important;
+    display: block;
+    position: relative;
+    background: #fff;
+    min-height: calc(100vh - 56px);
+    /* display: flex; */
+    margin: 0 auto;
+}
+
+.rowContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+.dashboardFormContainer{
+    margin-left: 300px;
+}
+
+.pageWrapper{
+    padding: 1.8rem;
+}
+
+.dashboardFormDiv{
+    border-radius: 0.25rem;
+    border: 1px solid #dee2e6;
+}
+
+.paddingDiv{
+    padding: 1.8rem;
+}
+
+.dhanukaHeading{
+    border-bottom: 1px solid #dee2e6;
+}
+
+.inputVals{
+    padding: 5px;
+}
+
+.inputStyle{
+    /* border: none; */
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 196px;
+}
+
+.rOnly{
+    background-color: #e9ecef;
+}
+
+.tableContainer{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.tableBody > tr{
+    padding: 15px;
+}
+
+.fileView{
+    cursor: pointer;
+}
+
+.fileView:hover{
+    color: red
+}
+
+.fileSvg{
+    pointer-events: none;
+}
+
+.ticket{
+    background: red;
+    width: 105px;
+    border-radius: 8px;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.ticketHolder{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
